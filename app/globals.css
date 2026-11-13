@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Brand colors and fonts. Change these to re-theme the whole site for a new client. */
+@theme inline {
+  --color-ink: #1c1714;
+  --color-ink-soft: #3a302a;
+  --color-cream: #faf6ef;
+  --color-sand: #efe6d8;
+  --color-saffron: #e0a526;
+  --color-ember: #b8441a;
+  --font-display: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Photo blocks: shows the image if it exists in /public/images, otherwise a warm gradient. */
+.photo {
+  background-size: cover;
+  background-position: center;
+  background-color: #3a302a;
+}
