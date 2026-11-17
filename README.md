@@ -3,6 +3,8 @@
 A fast, responsive restaurant website built with **Next.js**, **TypeScript** and **Tailwind CSS**.
 Demo project for a fictional restaurant.
 
+**Live demo:** https://saffron-table-eta.vercel.app
+
 ## Features
 
 - Home, Menu, About and Reservations pages
